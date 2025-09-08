@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowers Portfolio Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9fb;
+      color: #333;
+    }
+    header {
+      background: #4a148c;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 1.2rem;
+    }
+    section {
+      max-width: 900px;
+      margin: 25px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      border-left: 5px solid #ff4081;
+      padding-left: 10px;
+      color: #4a148c;
+    }
+    ul {
+      line-height: 1.8;
+    }
+
+    /* Diagram */
+    .diagram {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+    }
+    .center {
+      background: #ff4081;
+      color: #fff;
+      padding: 20px 30px;
+      border-radius: 50%;
+      font-weight: bold;
+      font-size: 1.2rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    .branches {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      gap: 30px;
+    }
+    .branch {
+      background: #4a148c;
+      color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      width: 220px;
+      text-align: center;
+      font-weight: bold;
+      position: relative;
+    }
+    .branch::before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 20px;
+      background: #666;
+    }
+    .branch ul {
+      margin-top: 10px;
+      padding: 0;
+      list-style: none;
+      text-align: left;
+    }
+    .branch ul li {
+      font-weight: normal;
+      margin-left: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background: #4a148c;
+      color: #fff;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌸 Flowers Portfolio Project</h1>
+    <p>Beauty • Nature • Symbolism</p>
+  </header>
+
+  <section>
+    <h2>📖 Introduction</h2>
+    <p>
+      Flowers are one of nature’s most beautiful creations. 
+      They not only add color and fragrance to our lives but also play a vital role in ecosystems. 
+      Flowers symbolize love, peace, and emotions across different cultures.
+    </p>
+  </section>
+
+  <section>
+    <h2>🎯 Objectives</h2>
+    <ul>
+      <li>To understand the importance of flowers in daily life</li>
+      <li>To learn about different types of flowers</li>
+      <li>To explore their uses in culture, medicine, and environment</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🌺 Uses of Flowers</h2>
+    <ul>
+      <li>Decoration & Festivals</li>
+      <li>Medicinal Purposes</li>
+      <li>Perfumes & Cosmetics</li>
+      <li>Symbol of Emotions (Love, Peace, Friendship)</li>
+      <li>Food & Beverages (Rose water, Herbal teas)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🌼 Types of Flowers</h2>
+    <ul>
+      <li>Roses – Symbol of Love</li>
+      <li>Lotus – Symbol of Purity</li>
+      <li>Sunflowers – Symbol of Energy</li>
+      <li>Tulips – Symbol of Elegance</li>
+      <li>Marigold – Religious & Cultural Use</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📊 Neat Diagram</h2>
+    <div class="diagram">
+      <div class="center">FLOWERS</div>
+      <div class="branches">
+        <div class="branch">
+          TYPES
+          <ul>
+            <li>Rose</li>
+            <li>Lotus</li>
+            <li>Sunflower</li>
+            <li>Tulip</li>
+          </ul>
+        </div>
+        <div class="branch">
+          USES
+          <ul>
+            <li>Decoration</li>
+            <li>Medicinal</li>
+            <li>Perfumes</li>
+            <li>Food</li>
+          </ul>
+        </div>
+        <div class="branch">
+          BEAUTY
+          <ul>
+            <li>Colors</li>
+            <li>Fragrance</li>
+            <li>Symbolism</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📌 Conclusion</h2>
+    <p>
+      Flowers are not only nature’s gift but also a part of human culture and emotions. 
+      Their <b>beauty, uses, and symbolism</b> make them precious and meaningful in our lives. 
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Flowers Portfolio Project | Built with 🌸</p>
+  </footer>
+
+</body>
+</html>
